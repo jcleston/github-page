@@ -20,8 +20,9 @@ Menu Geral
    * [Links](#links)
    * [Licença](#licença)
    * [Contatos](#contatos)   
-   * [Status](#status)
+   * [Status](#status)   
    * [Meu Github](#meu-github)
+   * [Autor](#autor)
    * [Minhas Skills](#minhas-skills)
    * [Estou Aprendendo](#estou-aprendendo)
 <!--te-->
@@ -254,6 +255,7 @@ Não se aplica.
 [![Build Status](https://travis-ci.org/condessalovelace/mavenquickstart.svg?branch=master)](https://travis-ci.org/condessalovelace/mavenquickstart) ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=br.com%3Amavenquickstart&metric=alert_status)
 <br /><br />
 
+
 ## Meu Github
 <div>
 <a href="https://github.com/jcleston">
@@ -261,6 +263,12 @@ Não se aplica.
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jcleston&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </a>
 </div>
+<br /><br />
+
+## Autor
+<img src="https://avatars.githubusercontent.com/u/13952621?v=4" width="100px;" alt=""/>
+<br />
+Feito com ❤️ por <a href="https://www.linkedin.com/in/janescleston/" title="Janes Cleston">🚀Janes Cleston</a> 👋🏽
 <br /><br />
 
 ## Minhas Skills
