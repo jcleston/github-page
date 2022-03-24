@@ -24,7 +24,7 @@ function App() {
         </div>
         <br />
 
-        <p>Minhas Skills</p><br />
+        <p>Minhas Skills</p>
         <div className="field is-grouped is-grouped-multiline">
           <p className="control">
             <a href="/#" class="button is-white is-large">
@@ -78,16 +78,16 @@ function App() {
 
         <br /><br />
 
-        <p>Estou Aprendendo</p><br />
+        <p>Estou Aprendendo</p>
         <div className="field is-grouped is-grouped-multiline">
           <p className="control">
-          <a href="/#" class="button is-white is-large">
+            <a href="/#" class="button is-white is-large">
               <img src={logo_nodejs} className="App-logo-2" alt="logo NodeJs" />
             </a>
             <progress class="progress is-danger" value="10" max="100">10%</progress>
           </p>
           <p className="control">
-          <a href="/#" class="button is-white is-large">
+            <a href="/#" class="button is-white is-large">
               <img src={logo_react} className="App-logo-2" alt="logo React" />
             </a>
             <progress class="progress is-danger" value="20" max="100">20%</progress>
@@ -96,7 +96,9 @@ function App() {
 
       </header>
 
-      <footer className="App-footer">
+      <br />
+
+      <footer className="App-footer">        
         <p>Desenvolvido com</p>
         <div className="field is-grouped is-grouped-multiline">
           <p className="control">
