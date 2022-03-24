@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Possuo curso Técnico em sistemas de informação, curso superior em análise e desenvolvimento de sistemas,
+        {/* <p>Possuo curso Técnico em sistemas de informação, curso superior em análise e desenvolvimento de sistemas,
           com pós-graduação em banco de dados e engenharia de software,
           também possuo as certificações: Cobit Foundation Exam(2013),
           Scrum Fundamentals Certified(2017) e
@@ -27,7 +27,7 @@ function App() {
           Iniciei minha carreira como programador em 2011,
           de lá pra cá tive a oportunidade de aprender e atuar em diversos projetos de desenvolvimento web e banco de dados,
           no momento atuo como Full Stack Developer no cargo de especialista na Tecnisys.
-        </p>
+        </p> */}
         <div className="columns">
 
         </div>
