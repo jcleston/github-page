@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github-page/static/css/main.ac218461.css",
-    "main.js": "/github-page/static/js/main.f5847a6a.js",
+    "main.js": "/github-page/static/js/main.2d8fee2b.js",
     "static/js/787.9b443e25.chunk.js": "/github-page/static/js/787.9b443e25.chunk.js",
     "static/media/logo-linux.svg": "/github-page/static/media/logo-linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
     "static/media/logo-postgresql.svg": "/github-page/static/media/logo-postgresql.1cb80a024e0d7d39088c239d25120bbe.svg",
@@ -16,11 +16,11 @@
     "index.html": "/github-page/index.html",
     "static/media/logo-css3.svg": "/github-page/static/media/logo-css3.32dd69d420952df1780d2771ab454d4b.svg",
     "main.ac218461.css.map": "/github-page/static/css/main.ac218461.css.map",
-    "main.f5847a6a.js.map": "/github-page/static/js/main.f5847a6a.js.map",
+    "main.2d8fee2b.js.map": "/github-page/static/js/main.2d8fee2b.js.map",
     "787.9b443e25.chunk.js.map": "/github-page/static/js/787.9b443e25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac218461.css",
-    "static/js/main.f5847a6a.js"
+    "static/js/main.2d8fee2b.js"
   ]
 }
