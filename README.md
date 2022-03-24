@@ -61,43 +61,43 @@ Para iniciar o desenvolvimento, é necessário efetuar as seguintes instalaçõe
 
 ## Bash
 ```shell
-sudo apt-get update
-sudo apt-get install bash
+$ sudo apt-get update
+$ sudo apt-get install bash
 ```
 
 ## NodeJs
 ```shell
-sudo apt install curl
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-source ~/.bashrc
-nvm list-remote
-nvm install v16.14.2
-nvm use v16.14.2
-node -v
+$ sudo apt install curl
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+$ source ~/.bashrc
+$ nvm list-remote
+$ nvm install v16.14.2
+$ nvm use v16.14.2
+$ node -v
 ```
 
 ## React
 ```shell
-npx create-react-app my-app
-npm start
+$ npx create-react-app my-app
+$ npm start
 ```
 
 ## GIT
 ```shell
-sudo apt-get update 
-sudo apt-get install git
-git --version
-git config --global user.name "seu-perfil-git" 
-git config --global user.email "seu-email-git"
-git config -l
+$ sudo apt-get update 
+$ sudo apt-get install git
+$ git --version
+$ git config --global user.name "seu-perfil-git" 
+$ git config --global user.email "seu-email-git"
+$ git config -l
 ```
 
 ## VScode
 ```shell
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install code
+$ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+$ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+$ sudo apt-get update
+$ sudo apt-get install code
 ```
 
 Após todas as instalações, efetuei a seguinte estapa:
@@ -107,9 +107,9 @@ Após todas as instalações, efetuei a seguinte estapa:
 <li>Criação e execução de novo projeto React.</li>
 
 ```shell
-npx create-react-app github-page
-cd github-page
-npm start
+$ npx create-react-app github-page
+$ cd github-page
+$ npm start
 ```
 
 <br />
@@ -123,7 +123,7 @@ Tipo do repositório: público<br />
 Copiar a linha do painel do novo repositório
 
 ```shell
-git remote add origin git@github.com:seu-perfil-git/github-page.git
+$ git remote add origin git@github.com:seu-perfil-git/github-page.git
 ```
 Executar a linha copiada via terminal, no diretório do novo projeto.
 obs: isso irá efetuar um link via acesso Remoto entre o repositório e o novo projeto
@@ -132,7 +132,7 @@ obs: isso irá efetuar um link via acesso Remoto entre o repositório e o novo p
 Executar via terminal, no diretório do novo projeto.
 
 ```shell
-git push -u origin master
+$ git push -u origin master
 ```
 obs: Nesse momento o projeto já estará disponível no repositório, e todo o push executado irá atualizar o Github.
 
@@ -177,9 +177,9 @@ S.O e sua versão, checkout, versão do node, instalação das dependências uti
 <li>Atualizar o repositório com as novas modificações de configuração</li>
 
 ```shell
-git add .
-git commit -m "mensagem do commit"
-git push origin master
+$ git add .
+$ git commit -m "mensagem do commit"
+$ git push origin master
 ```
 Obs: após a finalização do push no github e suas execuções internas de deploy, já será visível a branche gh-pages no painel do repositório.
 
@@ -202,9 +202,9 @@ Obs: Adicionar a linha logo após o parâmetro: "version", isso irá indicar par
 <li>Atualizar o repositório com as novas modificações de configuração</li>
 
 ```shell
-git add .
-git commit -m "mensagem do commit"
-git push origin master
+$ git add .
+$ git commit -m "mensagem do commit"
+$ git push origin master
 ```
 
 <br />
@@ -217,7 +217,7 @@ Para ver no ar acesse o site:
 Para instalar o bulma execute o seguinte comando via terminal, no direório raiz do projeto
 
 ```shell
-npm install bulma
+$ npm install bulma
 ```
 
 Faça a importação no arquivo App.js
