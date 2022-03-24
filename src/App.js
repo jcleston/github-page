@@ -7,7 +7,6 @@ import logo_mysql from './img/logo-mysql.svg';
 import logo_postgresql from './img/logo-postgresql.svg';
 import logo_github from './img/logo-github.svg';
 import logo_nodejs from './img/logo-nodejs.svg';
-import logo_react2 from './img/logo-react2.svg';
 import logo_react from './img/logo-react.svg';
 import logo_bulma from './img/logo-bulma.png';
 import './App.css';
@@ -19,98 +18,94 @@ function App() {
     <div className="App">
       <header className="App-header">
 
+        <br />
         <div className="buttons">
           <button className="js-modal-trigger button is-link is-outlined" data-target="modal-js-example">Sobre mim</button>
         </div>
         <br />
 
-        <p>Minhas Skills</p>
-        <div class="columns">
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_php} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="90" max="100">90%</progress>
+        <p>Minhas Skills</p><br />
+        <div className="field is-grouped is-grouped-multiline">
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_php} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_mysql} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="80" max="100">80%</progress>
+            <progress class="progress is-primary" value="90" max="100">90%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_mysql} className="App-logo-2" alt="logo Mysql" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_postgresql} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="80" max="100">80%</progress>
+            <progress class="progress is-primary" value="80" max="100">80%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_postgresql} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_github} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="70" max="100">70%</progress>
+            <progress class="progress is-primary" value="80" max="100">80%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_github} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_linux} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="70" max="100">70%</progress>
+            <progress class="progress is-primary" value="70" max="100">70%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_linux} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_html5} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="95" max="100">80%</progress>
+            <progress class="progress is-primary" value="70" max="100">70%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_html5} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_css3} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-primary" value="80" max="100">80%</progress>
+            <progress class="progress is-primary" value="95" max="100">80%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_css3} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_js} className="App-logo-3" alt="logo Linux" />
-              <progress class="progress is-warning" value="50" max="100">50%</progress>
+            <progress class="progress is-primary" value="80" max="100">80%</progress>
+          </p>
+          <p className="control">
+            <a href="/#" class="button is-white is-large">
+              <img src={logo_js} className="App-logo-2" alt="logo Linux" />
             </a>
-          </div>
-
+            <progress class="progress is-warning" value="50" max="100">50%</progress>
+          </p>
         </div>
-        <br />
 
-        <p>Estou Aprendendo</p>
-        <div className="columns">
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_nodejs} className="App-logo-4" alt="logo Linux" />
-              <progress class="progress is-danger" value="10" max="100">10%</progress>
-            </a>
-          </div>
+        <br /><br />
 
-          <div className="column">
-            <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_react2} className="App-logo-4" alt="logo Linux" />
-              <progress class="progress is-danger" value="20" max="100">20%</progress>
+        <p>Estou Aprendendo</p><br />
+        <div className="field is-grouped is-grouped-multiline">
+          <p className="control">
+          <a href="/#" class="button is-white is-large">
+              <img src={logo_nodejs} className="App-logo-2" alt="logo NodeJs" />
             </a>
-          </div>
+            <progress class="progress is-danger" value="10" max="100">10%</progress>
+          </p>
+          <p className="control">
+          <a href="/#" class="button is-white is-large">
+              <img src={logo_react} className="App-logo-2" alt="logo React" />
+            </a>
+            <progress class="progress is-danger" value="20" max="100">20%</progress>
+          </p>
         </div>
 
       </header>
 
       <footer className="App-footer">
-        <div className="columns">
-          <p>Desenvolvido com</p><br />
-        </div>
-        <div className="columns">
-          <img src={logo_react} className="App-logo-girando" alt="logo React" /> + &nbsp; <img src={logo_bulma} className="App-logo-1" alt="logo Bulma" />
+        <p>Desenvolvido com</p>
+        <div className="field is-grouped is-grouped-multiline">
+          <p className="control">
+            <img src={logo_react} className="App-logo-girando" alt="logo React" />
+          </p>
+          +&nbsp;
+          <p className="control">
+            <img src={logo_bulma} className="App-logo-1" alt="logo Bulma" />
+          </p>
         </div>
       </footer>
 
