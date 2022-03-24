@@ -12,25 +12,17 @@ import logo_react from './img/logo-react.svg';
 import logo_bulma from './img/logo-bulma.png';
 import './App.css';
 import 'bulma/css/bulma.min.css';
+import './modal-bulma'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <p>Possuo curso Técnico em sistemas de informação, curso superior em análise e desenvolvimento de sistemas,
-          com pós-graduação em banco de dados e engenharia de software,
-          também possuo as certificações: Cobit Foundation Exam(2013),
-          Scrum Fundamentals Certified(2017) e
-          Scrum Master Foudantion Certified(2019).
-        </p>
-        <p>
-          Iniciei minha carreira como programador em 2011,
-          de lá pra cá tive a oportunidade de aprender e atuar em diversos projetos de desenvolvimento web e banco de dados,
-          no momento atuo como Full Stack Developer no cargo de especialista na Tecnisys.
-        </p> */}
-        <div className="columns">
 
-        </div>
+        <div className="buttons">         
+          <button className="js-modal-trigger button is-link is-outlined" data-target="modal-js-example">Sobre mim</button>
+        </div>       
+
         <br />
 
         <p>Minhas Skills</p>
@@ -84,7 +76,6 @@ function App() {
             </a>
           </div>
 
-
         </div>
         <br />
 
@@ -114,7 +105,34 @@ function App() {
         </div>
       </footer>
 
+      <div id="modal-js-example" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Sobre mim</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p>Possuo curso Técnico em sistemas de informação, curso superior em análise e desenvolvimento de sistemas,
+              com pós-graduação em banco de dados e engenharia de software,
+              também possuo as certificações: Cobit Foundation Exam,
+              Scrum Fundamentals Certified e
+              Scrum Master Foudantion Certified.
+            </p>
+            <p>
+              Iniciei minha carreira como programador em 2011,
+              de lá pra cá tive a oportunidade de aprender e atuar em diversos projetos de desenvolvimento web e banco de dados,
+              no momento atuo como Full Stack Developer no cargo de especialista na Tecnisys.
+            </p>
+          </section>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+
     </div>
+
+
+
   );
 }
 
