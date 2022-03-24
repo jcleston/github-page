@@ -19,60 +19,67 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <div className="buttons">         
+        <div className="buttons">
           <button className="js-modal-trigger button is-link is-outlined" data-target="modal-js-example">Sobre mim</button>
-        </div>       
-
+        </div>
         <br />
 
         <p>Minhas Skills</p>
-        <div className="columns">
+        <div class="columns">
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_php} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="90" max="100">90%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_mysql} className="App-logo-4" alt="logo Linux" />
+              <img src={logo_mysql} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="80" max="100">80%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_postgresql} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="80" max="100">80%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_github} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="70" max="100">70%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_linux} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="70" max="100">70%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_html5} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="95" max="100">80%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_css3} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-primary" value="80" max="100">80%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_js} className="App-logo-3" alt="logo Linux" />
+              <progress class="progress is-warning" value="50" max="100">50%</progress>
             </a>
           </div>
 
@@ -84,12 +91,14 @@ function App() {
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
               <img src={logo_nodejs} className="App-logo-4" alt="logo Linux" />
+              <progress class="progress is-danger" value="10" max="100">10%</progress>
             </a>
           </div>
 
           <div className="column">
             <a href="https://pt.wikipedia.org/wiki/Linux">
-              <img src={logo_react2} className="App-logo-3" alt="logo Linux" />
+              <img src={logo_react2} className="App-logo-4" alt="logo Linux" />
+              <progress class="progress is-danger" value="20" max="100">20%</progress>
             </a>
           </div>
         </div>

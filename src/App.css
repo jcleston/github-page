@@ -44,6 +44,14 @@
   color: #61dafb;
 }
 
+.App-footer{
+  min-height: 14vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(06px + 2vmin);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -53,16 +61,23 @@
   }
 }
 
-.App-footer{
-  min-height: 14vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(06px + 2vmin);
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo-girando {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
+/* Mobile */
+/* @media screen and (max-width: 768px) {
+  .App {
+    background-color: green;
+  }
+} */
+
+/* Desktop */
+/* @media screen and (min-width: 1024px) {
+  .App {
+    background-color: orange;
+  }
+} */
