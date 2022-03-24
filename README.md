@@ -3,9 +3,8 @@
 </h4>
 <br /><br />
 
-
 Menu Geral
-=================
+---
 <!--ts-->
    * [Sobre](#sobre)
    * [Tecnologias](#tecnologias)
@@ -18,23 +17,25 @@ Menu Geral
       * [VScode](#vscode)
    * [Desenvolvimento](#desenvolvimento)
    * [Links](#links)
-   * [Licença](#licença)
-   * [Contatos](#contatos)   
+   * [Licença](#licença)      
    * [Status](#status)   
    * [Meu Github](#meu-github)
    * [Autor](#autor)
    * [Minhas Skills](#minhas-skills)
    * [Estou Aprendendo](#estou-aprendendo)
+   * [Contatos](#contatos)
 <!--te-->
 <br /><br />
 
 ## Sobre
+---
 <h1>Minha página pessoal</h1>
 <p>🚀 Página desenvolvida como laboratório de teste no desenvolvimento FRONT-END com REACT e plugins relativos utilizando o github-page</p>
 <br /><br />
 
 
 ## Tecnologias
+---
 <a href="https://pt.wikipedia.org/wiki/Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40"/></a>&nbsp;&nbsp;&nbsp;
@@ -47,6 +48,7 @@ Menu Geral
 
 
 ## Começando
+---
 Nesse projeto estou utilizando as seguintes tecnologias:
 - [Bash](https://pt.wikipedia.org/wiki/Bash)
 - [NodeJs](https://nodejs.org/en/)
@@ -59,6 +61,7 @@ Nesse projeto estou utilizando as seguintes tecnologias:
 
 
 ## Instalação
+---
 Para iniciar o desenvolvimento, é necessário efetuar as seguintes instalações:
 
 ## Bash
@@ -105,6 +108,7 @@ sudo apt-get install code
 Após todas as instalações, efetuei a seguinte estapa:
 
 ## Desenvolvimento
+---
 <ul>
 <li>Criação e execução de novo projeto React.</li>
 
@@ -233,30 +237,25 @@ Para mais detalhes, siga a documentação do Bulma no Link: <a href="https://bul
 <br /><br />
 
 ## Links
+---
 - [Bulma](https://bulma.io/)
 - [Devicon](https://devicon.dev/)
 - [Shields](https://shields.io/)
 <br /><br />
 
 ## Licença
+---
 Não se aplica.
 <br /><br />
 
-## Contatos
-<div>
-<a href="https://www.linkedin.com/in/janescleston/" target="blank"><img src="https://img.shields.io/badge/-Janes Cleston-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://www.instagram.com/jcleston/" target="blank"><img src="https://img.shields.io/badge/-Jcleston-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href = "mailto:janes.cleston.silva@gmail.com"><img src="https://img.shields.io/badge/janes.cleston.silva@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://jcleston.github.io/github-page/" target="_blank"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fjcleston.github.io%2Fgithub-page%2F"></a>
-</div>
-<br /><br />
-
 ## Status
+---
 [![Build Status](https://travis-ci.org/condessalovelace/mavenquickstart.svg?branch=master)](https://travis-ci.org/condessalovelace/mavenquickstart) ![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=br.com%3Amavenquickstart&metric=alert_status)
 <br /><br />
 
 
 ## Meu Github
+---
 <div>
 <a href="https://github.com/jcleston">
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcleston&layout=compact&langs_count=7&theme=dracula"/>
@@ -266,12 +265,16 @@ Não se aplica.
 <br /><br />
 
 ## Autor
+---
 <img src="https://avatars.githubusercontent.com/u/13952621?v=4" width="100px;" alt=""/>
 <br />
-Feito com ❤️ por <a href="https://www.linkedin.com/in/janescleston/" title="Janes Cleston">🚀Janes Cleston</a> 👋🏽
+<sub><b><a href="https://www.linkedin.com/in/janescleston/" title="LinkedIn">Janes Cleston</a></b></sub> 🚀
+
+Feito com ❤️ por Janes Cleston 👋🏽
 <br /><br />
 
 ## Minhas Skills
+---
 <a href="https://pt.wikipedia.org/wiki/Linux"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt.wikipedia.org/wiki/CSS3"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
@@ -282,8 +285,18 @@ Feito com ❤️ por <a href="https://www.linkedin.com/in/janescleston/" title="
 <a href="https://github.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="50"/></a>
 <br /><br />
 
-
 ## Estou aprendendo
+---
 <a href="https://pt-br.reactjs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="50"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="50"/></a>
+<br /><br />
+
+## Contatos
+---
+<div>
+<a href="https://www.linkedin.com/in/janescleston/" target="blank"><img src="https://img.shields.io/badge/-Janes Cleston-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.instagram.com/jcleston/" target="blank"><img src="https://img.shields.io/badge/-Jcleston-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href = "mailto:janes.cleston.silva@gmail.com"><img src="https://img.shields.io/badge/janes.cleston.silva@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://jcleston.github.io/github-page/" target="_blank"><img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fjcleston.github.io%2Fgithub-page%2F"></a>
+</div>
 <br /><br />
