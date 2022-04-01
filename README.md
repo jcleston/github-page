@@ -80,12 +80,8 @@ $ sudo apt-get install bash
 
 ## NodeJs
 ```shell
-$ sudo apt install curl
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-$ source ~/.bashrc
-$ nvm list-remote
-$ nvm install v16.14.2
-$ nvm use v16.14.2
+$ sudo apt update
+$ sudo apt install nodejs
 $ node -v
 ```
 
